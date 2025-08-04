@@ -1,71 +1,39 @@
-
 # 🎬 Movie Recommender System
 
-This is a content-based movie recommender system built using the TMDB 5000 Movie Dataset.  
-It recommends movies based on metadata such as overview, genres, keywords, cast, and crew.
+This project is a **Content-Based Movie Recommender System** built using the TMDB 5000 dataset. It uses movie metadata such as cast, crew, genres, and keywords to recommend similar movies.
 
-----
+## 🔧 Features
+- Recommends movies based on content similarity
+- Uses **CountVectorizer** and **Cosine Similarity**
+- Filters based on cast, crew, genres, and keywords
+- Outputs top 5 similar movies to the selected title
 
-## 📁 Dataset
+## 📁 Dataset Files
 - `tmdb_5000_movies.csv`
 - `tmdb_5000_credits.csv`
-> Dataset Source: [Kaggle - TMDB Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
----
-
-## 🔧 Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- CountVectorizer
-- Cosine Similarity
-
----
-
-## 📊 Features
-- Clean and merge movie & credits data
-- Extract key features (overview, genres, cast, crew, keywords)
-- Build tags from text data
-- Recommend 10 similar movies using cosine similarity
-
----
+## 📓 Notebook
+- `movie_recommender.ipynb`: Full implementation of the movie recommender system
 
 ## ▶️ How to Run
+1. Clone the repository or upload files to Google Colab
+2. Run all cells in `movie_recommender.ipynb`
+3. Input a movie name to get 5 similar recommendations
 
-### Google Colab (Recommended)
-Run the project directly in your browser using Colab:  
-[Open in Colab](https://colab.research.google.com/)
+## 🧠 Libraries Used
+- `pandas`
+- `numpy`
+- `ast`
+- `sklearn`
 
-### Local Setup
-```bash
-git clone https://github.com/yourusername/movie-recommender.git
-cd movie-recommender
-pip install -r requirements.txt
-python main.py
-```
+## 💡 Future Improvements
+- Add collaborative filtering
+- Build a web UI with Flask or Streamlit
+- Deploy with cloud services (Heroku, Vercel, etc.)
 
----
+## 🔗 Open in Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
-## 📌 Example
-
-**Input:** `Avatar`  
-**Output Recommendations:**
-1. Guardians of the Galaxy
-2. Star Wars: The Force Awakens  
-...
-
----
-
-## 📬 Feedback
-Easy to moderate. Helped me understand how recommendation systems work and how to clean & combine movie metadata using NLP techniques.
-
----
-
-## 📎 Links
-- 🔗 [Kaggle Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
-- ▶️ [Google Colab](https://colab.research.google.com/drive/1bB3cb3PtmGDOHqUXtY7hXv1URi1HEZtr#scrollTo=8ty9H83G8QQu)
-
----
-
-## 📌 Tags
-`#Python` `#MachineLearning` `#RecommendationSystem` `#OutrixJourney` `#InternshipProject`
+## 👤 Author
+**Praveen R**  
+GitHub: [@praveen17052005](https://github.com/praveen17052005)
