@@ -4,7 +4,7 @@
 This is a content-based movie recommender system built using the TMDB 5000 Movie Dataset.  
 It recommends movies based on metadata such as overview, genres, keywords, cast, and crew.
 
----
+----
 
 ## 📁 Dataset
 - `tmdb_5000_movies.csv`
